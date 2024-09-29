@@ -2,8 +2,13 @@
 	"name": "gatomontes",
 	"displayName": "Gatomontes",
 	"description": "temas personalizados de vscode :)  alguno snippets(teclado rapido)",
+	"author": "Gatomontes",
 	"publisher": "Gatomontes",
 	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ramirezherreranoeelvis/gatitomontes"
+	},
 	"engines": {
 		"vscode": "^1.13.0"
 	},
