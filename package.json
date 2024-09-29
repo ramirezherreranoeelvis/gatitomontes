@@ -1,0 +1,85 @@
+{
+	"name": "gatomontes",
+	"displayName": "Gatomontes",
+	"description": "temas personalizados de vscode :)  alguno snippets(teclado rapido)",
+	"publisher": "Gatomontes",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes",
+		"snippets"
+	],
+	"keywords": [
+		"theme",
+		"gatomontes",
+		"snippets"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "GatoDark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/gatomontesDark.json"
+			},
+			{
+				"label": "GatoDark-2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/gatomontesDark2.json"
+			},
+			{
+				"label": "GatoDark-3",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/gatomontesDark3.json"
+			},
+			{
+				"label": "GatoDark-4",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/gatomontesDark4.json"
+			},
+			{
+				"label": "GatoDark-5",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/gatomontesDark5.json"
+			},
+			{
+				"label": "GatoDark-6",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark/gatomontesDark6.json"
+			},
+			{
+				"label": "GatoLight",
+				"uiTheme": "vs",
+				"path": "./themes/light/GatomontesLight.json"
+			},
+			{
+				"label": "GatoLight-2",
+				"uiTheme": "vs",
+				"path": "./themes/light/GatomontesLight-2.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "java",
+				"path": "./templades/java.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./templades/python.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./templades/javaScript.code-snippets"
+			},
+			{
+				"language": "html",
+				"path": "./templades/html.code-snippets"
+			},
+			{
+				"language": "css",
+				"path": "./templades/css.code-snippets"
+			}
+		]
+	}
+}
